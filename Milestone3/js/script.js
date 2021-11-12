@@ -27,12 +27,11 @@ const app = new Vue({
 
    stringTodo: '',
    error: false
-   
+
  },
 
  methods:{
 
-   
    removeElement(index){
     let conferma = confirm("Are you sure you want to delete?");
     if (conferma) return this.toDoElements.splice(index,1);
