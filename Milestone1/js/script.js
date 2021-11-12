@@ -7,7 +7,7 @@ const app = new Vue({
 
     {
       text: 'Costruire la pagina in css',
-      done: false
+      done: true
     },
     {
       text: 'Stampare all’interno di una lista, un item per ogni todo',
