@@ -1,0 +1,70 @@
+body{
+  background-color:steelblue;
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#app input{
+  width: 80%;
+  height: 50px;
+  font-size: 20px;
+  color: gray;
+  border: none;
+  margin-bottom: 35px;
+  padding-left: 5px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: all 0.5s;
+}
+
+.container-title button{
+  width: 19%;
+  font-size: 14px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px;
+}
+
+.fa-arrow-circle-down{
+  font-size: 25px;
+  color:yellowgreen;
+}
+
+#app input:hover{
+  background-color: white;
+}
+
+.container-title{
+  width: 500px;
+}
+
+.container-list{
+  width: 500px;
+  background-color:rgba(238, 227, 227, 0.959);
+  /* border: 2px solid teal; */
+  margin: 3px 0;
+  padding-right: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px;
+}
+
+.container-list:hover{
+  background-color: white;
+}
+
+.container-list p{
+  margin-top: 15px;
+  padding-left: 5px;
+}
+
+.sbarrato{
+  text-decoration: line-through;
+  color: gray;
+}
+
+.fa-times{
+  color: rgb(185, 11, 11);
+  font-size: 20px;
+}
