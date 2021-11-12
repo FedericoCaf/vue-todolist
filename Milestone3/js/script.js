@@ -31,8 +31,11 @@ const app = new Vue({
  },
 
  methods:{
+
+   
    removeElement(index){
-     this.toDoElements.splice(index,1);
+    let conferma = confirm("Are you sure you want to delete?");
+    if (conferma) return this.toDoElements.splice(index,1);
    },
 
    sbarraElemento(index){
@@ -53,12 +56,13 @@ const app = new Vue({
 
       this.toDoElements.push(newObject);
       this.stringTodo = '';
-    
+      console.log(this.toDoElements);
     }
   },
-
 
  }
 
 
 })
+
+
