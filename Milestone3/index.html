@@ -26,7 +26,7 @@
         <h4 class="text-warning" v-if="error">Minimo 3 caratteri!</h4>
         <input
          @keyup.enter="insertElement"
-         v-model="stringTodo"
+         v-model.trim="stringTodo"
          type="text" placeholder="Aggiungi cosa devi fare">
          <button @click="insertElement"><i class="fas fa-arrow-circle-down"></i></button>
       </div>
